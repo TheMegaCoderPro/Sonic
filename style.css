@@ -1,0 +1,71 @@
+body {
+     color: #ebc422;
+     text-align: center;
+     background-color: blue;
+     font-weight:500;
+     font-family: 'Lobster' ,cursive;
+   }
+   #welcome {
+     color: blue;
+     background-color: aqua;
+     width: 100%;
+     height: 100%;
+     font-family: 'Pacifico' ,cursive;
+   }
+   #aboutme {
+     color: blue;
+     background-color: red;
+     width: 100%;
+     height: 100%;
+     font-family: 'Pacifico' ,cursive;
+   }
+   .profile {
+     border: solid;
+     border-color: #ebc422;
+     border-width: 10px;
+     border-radius: 50%;
+   }
+   #name{
+     font-size:50px;
+     font-family: 'Peralta' ,cursive;
+   }
+   .menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    background-color: aqua;
+    position: fixed;
+   } 
+   .links{
+    float: left;
+    padding-up: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Peralta' ,cursive;
+    font-size: 20px;
+     }
+   .links:hover{
+    background-color: #ebc422;
+    color: blue;
+    #welcome{
+      background-color: blue;
+      color: skyblue;
+       }
+     }
+   #yugi{
+     width: 300px;
+     height:400px;
+   }
+   #naoto{
+     width: 500px;
+     height: 400px;
+   }
+   #yugi:hover{
+     transform: scale(0.9);
+   }
+   #naoto:hover{
+     transform: scale(0.9);
+   }
